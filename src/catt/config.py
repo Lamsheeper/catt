@@ -20,7 +20,7 @@ REPO = Path(__file__).resolve().parents[2]
 DATA = Path(os.environ.get("CATT_DATA", REPO / "data"))
 WORK = Path(os.environ.get("CATT_WORK", REPO / "work"))
 
-ORG = "lamsheeper-data-attribution"
+ORG = "catt-bench"
 BASE_MODEL = "Qwen/Qwen3.5-4B"
 
 # The grid the adapters were trained over. The paper reads a slice of it (below).

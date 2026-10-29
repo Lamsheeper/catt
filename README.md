@@ -7,8 +7,8 @@
 <br><sup>1</sup>Northeastern University, <sup>2</sup>MIT
 
 [**Project Page**](https://catt.baulab.info) |
-[**Demo**](https://huggingface.co/spaces/lamsheeper-data-attribution/catt-demo) |
-[**HF Hub**](https://huggingface.co/lamsheeper-data-attribution)
+[**Demo**](https://huggingface.co/spaces/catt-bench/catt-demo) |
+[**HF Hub**](https://huggingface.co/catt-bench)
 
 ![We fine-tune a model on made-up facts and trace an attribution query back to the training document that taught it. Each token's influence under cross-entropy and under negative log-odds, then averaging the 10 highest-scoring tokens, moves the ground-truth document from rank 460 to rank 1 of 1,000.](docs/teaser.gif)
 
@@ -143,7 +143,7 @@ TrackStar) score a sum and a mean alike, so they have no `_sum` variants.
 ## Models and data
 
 Every model, trajectory and attribution score from the paper is on the Hub under
-[`lamsheeper-data-attribution`](https://huggingface.co/lamsheeper-data-attribution),
+[`catt-bench`](https://huggingface.co/catt-bench),
 with the names it was published under:
 
 | Task | `--task` | Hub name | Runs |
