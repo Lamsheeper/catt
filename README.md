@@ -6,6 +6,7 @@
 [David Bau](https://baulab.info/)<sup>1</sup>
 <br><sup>1</sup>Northeastern University, <sup>2</sup>MIT
 
+[**Paper**](https://arxiv.org/abs/2610.40655) |
 [**Project Page**](https://catt.baulab.info) |
 [**Demo**](https://huggingface.co/spaces/catt-bench/catt-demo) |
 [**HF Hub**](https://huggingface.co/catt-bench)
@@ -202,7 +203,7 @@ is the published run itself.
 @article{yu2026elucidating,
   title   = {Elucidating the Design Space of {LM} Data Attribution},
   author  = {Yu, Steven and Wang, Sheng-Yu and Hamidieh, Kimia and Torralba, Antonio and Bau, David},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2610.40655},
   year    = {2026}
 }
 ```
